@@ -1,4 +1,4 @@
-export const changeActive = (data) =>({
+export const changeTabActive = (data) =>({
     type: 'ACTIVE_TAB',
     payload: data
 })
