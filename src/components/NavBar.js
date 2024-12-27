@@ -12,9 +12,9 @@ export const NavBar = ({activeTab}) => {
         </div>
         <nav>
             {
-                listNav.map((value, key) => {
-                    return <span className='active' key={key}>{value}</span>
-                })
+                listNav.map((value, key) => (
+                    <span className='active' key={key}>{value}</span>
+                ))
             }
         </nav>
     </header>
