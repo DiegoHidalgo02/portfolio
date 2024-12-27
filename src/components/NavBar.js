@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import { changeTabActive } from '../redux/action';
 
-export const NavBar = (activeTab) => {
-    alert()
-    const [listNav] = useState(['home', 'skills', 'projects'])
+export const NavBar = ({activeTab}) => {
+    alert(activeTab);
+    const [listNav] = useState(['home', 'skills', 'projects', 'contacts']);
   return (
     <header>
         <div className='Logo'>
